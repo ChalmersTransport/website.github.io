@@ -8,7 +8,7 @@ last_name: Gao
 
 # Username (this should match the folder name)
 authors:
-  - 高坤
+  - Kun Gao
 
 # Is this the primary user of the site?
 superuser: true
