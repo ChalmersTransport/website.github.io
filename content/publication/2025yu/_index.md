@@ -1,10 +1,10 @@
 ---
 title: "Equitable tradable parking permit scheme for shared nonpublic parking management"
 authors:
-- Kun Gao  # 替换为你自己的 author ID
-- Shanchuan Yu
-- Lang Song
-- Yuchuan Du
+- admin
+- Kun
+
+
 date: 2025-01-01T00:00:00Z
 publishDate: 2025-01-01T00:00:00Z
 publication_types: ["article-journal"]
