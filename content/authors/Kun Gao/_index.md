@@ -14,20 +14,21 @@ authors:
 superuser: false
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Assistant Professor
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: Chalmers University of Technology
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
 bio: I am an assistant professor and the research area leader in the Urban Mobility Systems research group at Chalmers University of Technology. My research works on promoting sustainable mobility with focuses on electrification, shared and connected mobility, and data-driven methods. Special interests are attached to establishing new approaches and tools for system planning, optimization and evaluation of emerging transport systems leveraging big data and machine learning. The overall goal is to facilitate the development of a safer, more sustainable and equitable transportation system. My research in above areas has been supported by JPI Urban Europe, FORMAS, Swedish Innovation Agency, Swedish Energy Agency, and Chalmers AoA Transport/Energy.
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Transportation Electrification
+  - Intelligent Transport Management
+  - Shared Mobility
+  - AI and Data-Driven Solution
 
 education:
   courses:
@@ -74,6 +75,6 @@ user_groups:
   - Visitors
 ---
 
-吳恩達 is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Kun Gao is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
