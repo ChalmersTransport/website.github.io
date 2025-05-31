@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Kun Gao 高坤 
+title: Kun Gao
 
 # Full name (for SEO)
 first_name: Kun

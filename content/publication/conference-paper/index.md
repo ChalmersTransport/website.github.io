@@ -7,6 +7,7 @@ title: 'An example conference paper'
 authors:
   - admin
   - Robert Ford
+  - Kun
 
 # Author notes (optional)
 author_notes:
