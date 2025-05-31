@@ -6,7 +6,7 @@ authors:
 
 date: 2025-01-01T00:00:00Z
 publishDate: 2025-01-01T00:00:00Z
-publication_types: ["article-journal"]
+publication_types: ["article"]
 publication: "*Applied Energy*"
 publication_short: "Appl. Energy"
 abstract: Collaborative optimization of battery electric bus scheduling and charging considering arterial signal coordination under connected environment.

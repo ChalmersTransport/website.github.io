@@ -7,7 +7,7 @@ authors:
 
 date: 2025-01-01T00:00:00Z
 publishDate: 2025-01-01T00:00:00Z
-publication_types: ["article-journal"]
+publication_types: ["article"]
 publication: "*Transportation Research Part A: Policy and Practice*"
 publication_short: "TR Part A"
 abstract: Equitable tradable parking permit scheme for shared nonpublic parking management.
