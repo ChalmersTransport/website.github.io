@@ -22,7 +22,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: Shaohua Cui is a postdoc in the Urban Mobility Systems research group, Division of Geology and Geotechnics, Department of Architecture and Civil Engineering. His research focuses on advancing adaptive control strategies in urban traffic systems, with key interests in mixed traffic flow management, platoon control, and network-level adaptive signal control. Special emphasis is placed on developing novel methods to optimize traffic stability and efficiency in environments with both automated and human-driven vehicles. His work aims to support the design of smarter, safer, and more efficient urban mobility systems through the integration of real-time data and advanced modeling techniques.
+bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 
 interests:
@@ -73,6 +73,4 @@ user_groups:
   - Researchers
 ---
 
-Kun Gao is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Shaohua Cui is a postdoc in the Urban Mobility Systems research group, Division of Geology and Geotechnics, Department of Architecture and Civil Engineering. His research focuses on advancing adaptive control strategies in urban traffic systems, with key interests in mixed traffic flow management, platoon control, and network-level adaptive signal control. Special emphasis is placed on developing novel methods to optimize traffic stability and efficiency in environments with both automated and human-driven vehicles. His work aims to support the design of smarter, safer, and more efficient urban mobility systems through the integration of real-time data and advanced modeling techniques.

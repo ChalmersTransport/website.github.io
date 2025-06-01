@@ -22,7 +22,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: Ruo Jia is a postdoctoral researcher in the Urban Mobility Systems research group within the Division of Geology and Geotechnics, Department of Architecture and Civil Engineering. His research interests focus on traffic flow, transportation modeling, and optimization through data-driven approaches. He is also working on urban mobility systems, with a particular focus on shared mobility, and big data analytics in transportation.
+bio: My research interests include shared mobility, micro-mobility and AI in transportation.
 
 interests:
   - Intelligent Transport Management
@@ -73,6 +73,4 @@ user_groups:
   - Researchers
 ---
 
-Kun Gao is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Ruo Jia is a postdoctoral researcher in the Urban Mobility Systems research group within the Division of Geology and Geotechnics, Department of Architecture and Civil Engineering. His research interests focus on traffic flow, transportation modeling, and optimization through data-driven approaches. He is also working on urban mobility systems, with a particular focus on shared mobility, and big data analytics in transportation.

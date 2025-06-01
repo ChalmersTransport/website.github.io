@@ -22,7 +22,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: Omkar Parishwad is a PhD student in the Urban Mobility Systems' Research group. His research promotes sustainable mobility, focusing on renewable energy usage for Electric Vehicles using multimodal Agent-based model development, and planning using spatiotemporal optimization and machine learning algorithms.
+bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 
 interests:
@@ -74,6 +74,4 @@ user_groups:
   - Students
 ---
 
-Kun Gao is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Omkar Parishwad is a PhD student in the Urban Mobility Systems' Research group. His research promotes sustainable mobility, focusing on renewable energy usage for Electric Vehicles using multimodal Agent-based model development, and planning using spatiotemporal optimization and machine learning algorithms.

@@ -24,6 +24,8 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: I am an assistant professor and the research area leader in the Urban Mobility Systems research group at Chalmers University of Technology. My research works on promoting sustainable mobility with focuses on electrification, shared and connected mobility, and data-driven methods. Special interests are attached to establishing new approaches and tools for system planning, optimization and evaluation of emerging transport systems leveraging big data and machine learning. The overall goal is to facilitate the development of a safer, more sustainable and equitable transportation system. My research in above areas has been supported by JPI Urban Europe, FORMAS, Swedish Innovation Agency, Swedish Energy Agency, and Chalmers AoA Transport/Energy.
 
+highlight_name: true
+
 interests:
   - Transportation Electrification
   - Intelligent Transport Management

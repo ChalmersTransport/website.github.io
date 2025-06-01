@@ -22,7 +22,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: Arsalan Najafi is a postdoc research fellow at the devision of Architecture and Civil Engineering with the Urban Mobility Group. His research focuses on transportation electrification, multi-energy systems and application of optimization methods to multi-sector energy systems.
+bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
   - Transportation Electrification
@@ -74,7 +74,4 @@ user_groups:
   - Researchers
 
 ---
-
-Kun Gao is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Arsalan Najafi is a postdoc research fellow at the devision of Architecture and Civil Engineering with the Urban Mobility Group. His research focuses on transportation electrification, multi-energy systems and application of optimization methods to multi-sector energy systems.
