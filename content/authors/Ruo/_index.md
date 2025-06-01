@@ -1,29 +1,34 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Kun Gao
 
-# Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+# Full name (for SEO)
+first_name: Kun
+last_name: Gao
+
+# Username (this should match the folder name)
+authors:
+  - Kun Gao
 
 # Is this the primary user of the site?
-superuser: false
+superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Assistant Professor
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: Chalmers University of Technology
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am an assistant professor and the research area leader in the Urban Mobility Systems research group at Chalmers University of Technology. My research works on promoting sustainable mobility with focuses on electrification, shared and connected mobility, and data-driven methods. Special interests are attached to establishing new approaches and tools for system planning, optimization and evaluation of emerging transport systems leveraging big data and machine learning. The overall goal is to facilitate the development of a safer, more sustainable and equitable transportation system. My research in above areas has been supported by JPI Urban Europe, FORMAS, Swedish Innovation Agency, Swedish Energy Agency, and Chalmers AoA Transport/Energy.
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Transportation Electrification
+  - Intelligent Transport Management
+  - Shared Mobility
+  - AI and Data-Driven Solution
 
 education:
   courses:
@@ -63,9 +68,6 @@ social:
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
 
-# Highlight the author in author lists? (true/false)
-highlight_name: false
-
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
@@ -73,6 +75,6 @@ user_groups:
   - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Kun Gao is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
