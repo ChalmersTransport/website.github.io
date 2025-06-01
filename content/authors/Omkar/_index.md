@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Kun Gao
+title: Omkar Parishwad
 
 # Full name (for SEO)
-first_name: Kun
-last_name: Gao
+first_name: Omkar
+last_name: Omkar
 
 # Username (this should match the folder name)
 authors:
-  - Kun Gao
+  - Omkar
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Assistant Professor
+role: Doctoral Student
 
 # Organizations/Affiliations
 organizations:
@@ -22,12 +22,12 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am an assistant professor and the research area leader in the Urban Mobility Systems research group at Chalmers University of Technology. My research works on promoting sustainable mobility with focuses on electrification, shared and connected mobility, and data-driven methods. Special interests are attached to establishing new approaches and tools for system planning, optimization and evaluation of emerging transport systems leveraging big data and machine learning. The overall goal is to facilitate the development of a safer, more sustainable and equitable transportation system. My research in above areas has been supported by JPI Urban Europe, FORMAS, Swedish Innovation Agency, Swedish Energy Agency, and Chalmers AoA Transport/Energy.
+bio: Omkar Parishwad is a PhD student in the Urban Mobility Systems' Research group. His research promotes sustainable mobility, focusing on renewable energy usage for Electric Vehicles using multimodal Agent-based model development, and planning using spatiotemporal optimization and machine learning algorithms.
+
 
 interests:
   - Transportation Electrification
   - Intelligent Transport Management
-  - Shared Mobility
   - AI and Data-Driven Solution
 
 education:
@@ -72,7 +72,6 @@ email: ''
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Researchers
-  - Visitors
 ---
 
 Kun Gao is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.

@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Kun Gao
+title: Yinghao Chen
 
 # Full name (for SEO)
-first_name: Kun
-last_name: Gao
+first_name: Yinghao
+last_name: Chen
 
 # Username (this should match the folder name)
 authors:
-  - Kun Gao
+  - Yinghao
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Assistant Professor
+role: Doctoral Student
 
 # Organizations/Affiliations
 organizations:

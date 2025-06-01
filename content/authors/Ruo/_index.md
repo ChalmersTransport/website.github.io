@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Kun Gao
+title: Ruo Jia
 
 # Full name (for SEO)
-first_name: Kun
-last_name: Gao
+first_name: Ruo
+last_name: Jia
 
 # Username (this should match the folder name)
 authors:
-  - Kun Gao
+  - Ruo
 
 # Is this the primary user of the site?
 superuser: true
