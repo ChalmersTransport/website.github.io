@@ -98,7 +98,6 @@ Kun works on combining machine learning, network modeling, and simulation to opt
 - Supporting policy evaluation under EU transport goals  
 - LCA-based emission benchmarking across 100+ European cities
 
-{{< /columns >}}
 
 ---
 
