@@ -24,6 +24,25 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include shared mobility, micro-mobility and AI in transportation.
 
+
+interests:
+  - Intelligent Transport Management
+  - Shared Mobility
+  - AI and Data-Driven Solution
+
+education:
+  courses:
+    - course: PhD in Transportation Engineering
+      institution: Southeast University
+      year: 2022
+    - course: MEng in Transportation Engineering
+      institution: Southeast University
+      year: 2018
+    - course: BSc in Transportation Engineering
+      institution: Southeast University
+      year: 2015
+
+
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -57,6 +76,12 @@ user_groups:
 ---
 
 Ruo Jia is a postdoctoral researcher in the Urban Mobility Systems research group within the Division of Geology and Geotechnics, Department of Architecture and Civil Engineering. His research interests focus on traffic flow, transportation modeling, and optimization through data-driven approaches. He is also working on urban mobility systems, with a particular focus on shared mobility, and big data analytics in transportation.
+
+
+
+---
+
+
 
 ## Research Vision
 
@@ -106,9 +131,9 @@ I welcome collaboration with researchers and policymakers on projects related to
 
 ## 📂 Selected Projects
 
-### [Master Thesis Defence 2025](/project/example/)
+### [Master Thesis Defence 2025](/content/project/example)
 
-<img src="/project/example/featured.jpg" alt="project image" style="max-width: 100%; border-radius: 10px; margin-top: 10px;"/>
+<img src="./preview.png" alt="project image" style="max-width: 100%; border-radius: 10px; margin-top: 10px;"/>
 
 Organizing thesis defence and analyzing shared mobility impact across 121 cities.
 
@@ -117,20 +142,3 @@ Organizing thesis defence and analyzing shared mobility impact across 121 cities
 
 - **Jia, R.** et al. (2024). *Life-cycle GHG impacts of shared e-scooters in Europe*. _Transportation Research Part D._
 - **Jia, R.**, Gao, K. (2023). *Accessibility-based location optimization with public transport integration*. _TR Part A._
-
-interests:
-  - Intelligent Transport Management
-  - Shared Mobility
-  - AI and Data-Driven Solution
-
-education:
-  courses:
-    - course: PhD in Transportation Engineering
-      institution: Southeast University
-      year: 2022
-    - course: MEng in Transportation Engineering
-      institution: Southeast University
-      year: 2018
-    - course: BSc in Transportation Engineering
-      institution: Southeast University
-      year: 2015
