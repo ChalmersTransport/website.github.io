@@ -3,7 +3,7 @@ title: Master Thesis Defence 2025
 date: 2025-06-15
 summary: A successful half-day thesis defence was held on June 3, 2025. Congratulations to all MSc students for completing their thesis work.
 authors:
-  - Ruo
+  - Kun
 image:
   focal_point: 'top'
 ---
