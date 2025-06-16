@@ -2,7 +2,7 @@
 title: Ruo Jia
 first_name: Ruo
 last_name: Jia
-authors: ["Ruo"]
+authors: Ruo
 role: Postdoctoral Researcher
 organizations:
   - name: Chalmers University of Technology
