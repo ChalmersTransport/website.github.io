@@ -115,28 +115,9 @@ Kun works on combining machine learning, network modeling, and simulation to opt
 
 ---
 
-## Selected Projects
-
-You can also check the /project/example for ongoing work, such as:
-
-- GHG Impacts of Shared E-Scooters  
-- Public Transport + Micro-Mobility Integration  
-- City-Level EV Adoption Modeling
-
----
-
 ## Contact
 
 I welcome collaboration with researchers and policymakers on projects related to urban mobility, electrification, and intelligent transport planning.
-
-## 📂 Selected Projects
-
-### [Master Thesis Defence 2025](/content/project/example)
-
-<img src="./preview.png" alt="project image" style="max-width: 100%; border-radius: 10px; margin-top: 10px;"/>
-
-Organizing thesis defence and analyzing shared mobility impact across 121 cities.
-
 
 ## 📚 Selected Publications
 

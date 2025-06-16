@@ -1,0 +1,71 @@
+{{ define "main" }}
+<main id="main">
+  <article class="author-profile">
+    <header style="margin-bottom: 2rem;">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.role }}<h3>{{ . }}</h3>{{ end }}
+      {{ with .Params.organizations }}
+        <p>
+          {{ range . }}
+            {{ .name }}{{ with .url }} - <a href="{{ . }}">Website</a>{{ end }}<br>
+          {{ end }}
+        </p>
+      {{ end }}
+    </header>
+
+    <section>
+      {{ .Content }}
+    </section>
+
+    {{ with .Params.interests }}
+    <section>
+      <h2>Research Interests</h2>
+      <ul>
+        {{ range . }}<li>{{ . }}</li>{{ end }}
+      </ul>
+    </section>
+    {{ end }}
+
+    {{ with .Params.education }}
+    <section>
+      <h2>Education</h2>
+      <ul>
+        {{ range .courses }}
+          <li><strong>{{ .course }}</strong>, {{ .institution }}, {{ .year }}</li>
+        {{ end }}
+      </ul>
+    </section>
+    {{ end }}
+
+    {{ $author := .Title }}
+    {{ $projects := where site.RegularPages "Section" "project" | where "Params.authors" "intersect" (slice $author) }}
+    {{ if $projects }}
+    <section>
+      <h2>Projects</h2>
+      <div class="grid">
+        {{ range $projects }}
+          <div class="card" style="border:1px solid #ddd; border-radius:10px; padding:1em; margin-bottom:1em;">
+            {{ with .Params.image }}<img src="{{ . }}" alt="{{ $.Title }}" style="width:100%; border-radius:6px;" />{{ end }}
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Params.summary }}</p>
+          </div>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    {{ $publications := where site.RegularPages "Section" "publication" | where "Params.authors" "intersect" (slice $author) }}
+    {{ if $publications }}
+    <section>
+      <h2>Selected Publications</h2>
+      <ul>
+        {{ range first 5 $publications }}
+          <li><strong><a href="{{ .RelPermalink }}">{{ .Title }}</a></strong> ({{ .Date.Format "Jan 2006" }})</li>
+        {{ end }}
+      </ul>
+    </section>
+    {{ end }}
+
+  </article>
+</main>
+{{ end }}
