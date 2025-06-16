@@ -82,9 +82,7 @@ My research focuses on building sustainable and intelligent mobility systems thr
 
 ---
 
-## Highlights
 
-{{< columns >}}
 
 ### 🧠 AI-Driven Mobility Planning
 
