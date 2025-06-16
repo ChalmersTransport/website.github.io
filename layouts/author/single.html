@@ -1,24 +1,28 @@
 {{ define "main" }}
 <main id="main">
-  <article class="author-profile">
+  <article class="author-profile" style="max-width: 900px; margin: auto; padding: 2rem 1rem;">
+
+    <!-- Header Section -->
     <header style="margin-bottom: 2rem;">
       <h1>{{ .Title }}</h1>
       {{ with .Params.role }}<h3>{{ . }}</h3>{{ end }}
       {{ with .Params.organizations }}
         <p>
           {{ range . }}
-            {{ .name }}{{ with .url }} - <a href="{{ . }}">Website</a>{{ end }}<br>
+            {{ .name }}{{ with .url }} - <a href="{{ . }}" target="_blank">Website</a>{{ end }}<br>
           {{ end }}
         </p>
       {{ end }}
     </header>
 
+    <!-- Bio / Markdown Body -->
     <section>
       {{ .Content }}
     </section>
 
+    <!-- Research Interests -->
     {{ with .Params.interests }}
-    <section>
+    <section style="margin-top: 2rem;">
       <h2>Research Interests</h2>
       <ul>
         {{ range . }}<li>{{ . }}</li>{{ end }}
@@ -26,8 +30,9 @@
     </section>
     {{ end }}
 
+    <!-- Education -->
     {{ with .Params.education }}
-    <section>
+    <section style="margin-top: 2rem;">
       <h2>Education</h2>
       <ul>
         {{ range .courses }}
@@ -37,32 +42,40 @@
     </section>
     {{ end }}
 
+    <!-- Projects as Cards -->
     {{ $author := .Title }}
     {{ $projects := where site.RegularPages "Section" "project" | where "Params.authors" "intersect" (slice $author) }}
     {{ if $projects }}
-    <section>
+    <section style="margin-top: 3rem;">
       <h2>Projects</h2>
-      <div class="grid">
+      <div class="cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
         {{ range $projects }}
-          <div class="card" style="border:1px solid #ddd; border-radius:10px; padding:1em; margin-bottom:1em;">
-            {{ with .Params.image }}<img src="{{ . }}" alt="{{ $.Title }}" style="width:100%; border-radius:6px;" />{{ end }}
-            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-            <p>{{ .Params.summary }}</p>
+          <div class="card" style="border:1px solid #ddd; border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.1); overflow:hidden;">
+            {{ with .Params.image }}<img src="{{ . }}" alt="{{ $.Title }}" style="width:100%; height:auto;">{{ end }}
+            <div style="padding: 1rem;">
+              <h3 style="margin-top: 0;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              <p>{{ .Params.summary | plainify | truncate 120 }}</p>
+            </div>
           </div>
         {{ end }}
       </div>
     </section>
     {{ end }}
 
+    <!-- Publications as Cards -->
     {{ $publications := where site.RegularPages "Section" "publication" | where "Params.authors" "intersect" (slice $author) }}
     {{ if $publications }}
-    <section>
+    <section style="margin-top: 3rem;">
       <h2>Selected Publications</h2>
-      <ul>
+      <div class="cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
         {{ range first 5 $publications }}
-          <li><strong><a href="{{ .RelPermalink }}">{{ .Title }}</a></strong> ({{ .Date.Format "Jan 2006" }})</li>
+          <div class="card" style="border:1px solid #ddd; border-radius:12px; padding:1rem; box-shadow:0 2px 6px rgba(0,0,0,0.08);">
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p><em>{{ .Date.Format "Jan 2006" }}</em></p>
+            <p>{{ .Summary | plainify | truncate 120 }}</p>
+          </div>
         {{ end }}
-      </ul>
+      </div>
     </section>
     {{ end }}
 
