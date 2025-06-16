@@ -1,16 +1,35 @@
 ---
+# Display name
 title: Ruo Jia
+
+# Full name (for SEO)
 first_name: Ruo
 last_name: Jia
-authors: Ruo
-role: Postdoctoral Researcher
+
+# Username (this should match the folder name)
+authors:
+  - Ruo
+
+# Is this the primary user of the site?
+superuser: true
+
+# Role/position
+role: Postdoc
+
+# Organizations/Affiliations
 organizations:
   - name: Chalmers University of Technology
-bio: Researcher in shared mobility, AI, and transport sustainability.
+    url: ''
+
+# Short bio (displayed in user profile at end of posts)
+bio: My research interests include shared mobility, micro-mobility and AI in transportation.
+
+
 interests:
-  - Shared Micro-Mobility
-  - Data-Driven Transport Models
-  - GIS & Urban Systems
+  - Intelligent Transport Management
+  - Shared Mobility
+  - AI and Data-Driven Solution
+
 education:
   courses:
     - course: PhD in Transportation Engineering
@@ -22,12 +41,56 @@ education:
     - course: BSc in Transportation Engineering
       institution: Southeast University
       year: 2015
-avatar:
-  filename: avatar.png
+
+
+# Social/Academic Networking
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:test@example.org'
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/GeorgeCushen
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/gcushen
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# - icon: cv
+#   icon_pack: ai
+#   link: files/cv.pdf
+
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: ''
+
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.
+user_groups:
+  - Researchers
 ---
 
-Ruo Jia is a postdoctoral researcher in the Urban Mobility Systems group at Chalmers University of Technology.
+Ruo Jia is a postdoctoral researcher in the Urban Mobility Systems research group within the Division of Geology and Geotechnics, Department of Architecture and Civil Engineering. His research interests focus on traffic flow, transportation modeling, and optimization through data-driven approaches. He is also working on urban mobility systems, with a particular focus on shared mobility, and big data analytics in transportation.
 
-His research focuses on promoting sustainable and intelligent urban mobility through shared micro-mobility, electrification, and data-driven system modeling. He applies methods including federated learning, demand estimation, and life-cycle assessment to study the environmental and operational impacts of new mobility services across European cities.
 
-He has published on the GHG performance of shared e-scooters, transport network modeling, and optimization of mobility-as-a-service integration. His work supports collaboration with local governments and operators to inform policy and service design.
+---
+
+## Sample Video
+
+{{< youtube x2KZ6H8p6MM >}}
+
+---
+
+## Contact
+
+I welcome collaboration with researchers and policymakers on projects related to urban mobility, electrification, and intelligent transport planning.
+
+## 📚 Selected Publications
+
+- **Jia, R.** et al. (2024). *Life-cycle GHG impacts of shared e-scooters in Europe*. _Transportation Research Part D._
+- **Jia, R.**, Gao, K. (2023). *Accessibility-based location optimization with public transport integration*. _TR Part A._
