@@ -104,17 +104,14 @@ You can also check the /project/example for ongoing work, such as:
 
 I welcome collaboration with researchers and policymakers on projects related to urban mobility, electrification, and intelligent transport planning.
 
-<hr class="my-4">
-
 ## 📂 Selected Projects
 
-Here are some ongoing projects I'm involved in:
+### [Master Thesis Defence 2025](/project/example/)
 
-{{< project_card title="Master Thesis Defence 2025" image="/project/example/featured.jpg" url="/project/example/" description="Organizing thesis defence, analyzing shared mobility impact across 121 cities." >}}
+<img src="/project/example/featured.jpg" alt="project image" style="max-width: 100%; border-radius: 10px; margin-top: 10px;"/>
 
-<!-- 如果你没有 project_card shortcode，就写 Markdown 卡片替代 -->
+Organizing thesis defence and analyzing shared mobility impact across 121 cities.
 
----
 
 ## 📚 Selected Publications
 
