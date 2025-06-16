@@ -2,7 +2,7 @@
 title: Publications
 
 # Listing view
-view: citation
+view: combat # or citation
 
 # Optional banner image (relative to `assets/media/` folder).
 banner:

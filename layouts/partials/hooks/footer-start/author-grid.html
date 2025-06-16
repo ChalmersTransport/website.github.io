@@ -1,54 +1,29 @@
 {{ if eq .Type "authors" }}
 <section class="container mx-auto px-6 py-10">
-
-  <!-- Selected Work -->
-  <h2 class="mt-12 mb-6 text-2xl font-semibold">Selected Work</h2>
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
-    {{ $posts := first 3 (where site.RegularPages "Section" "post") }}
+  <h2 class="mt-12 mb-6 text-2xl font-semibold text-center">Selected Work</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    {{ $posts := first 3 (sort (where site.RegularPages "Section" "post") "Date" "desc") }}
     {{ range $posts }}
     <a href="{{ .RelPermalink }}"
-       class="block rounded-lg border border-gray-200 shadow hover:shadow-lg transition p-4 bg-white overflow-hidden">
-      <h3 class="text-xl font-semibold mb-1 text-gray-900">{{ .Title }}</h3>
-      <span class="text-base text-primary-500 mb-2 block">{{ .Date.Format "2006-01-02" }}</span>
+       class="block rounded-lg border border-gray-200 shadow hover:shadow-lg transition p-4 bg-white">
+       
+      <!-- 标题 -->
+      <h3 class="text-xl font-semibold mb-3 text-gray-900 text-center">{{ .Title }}</h3>
 
+      <!-- 图片（可选） -->
       {{ $img := .Resources.GetMatch (printf "*%s*" (or .Params.featured_image "featured*")) }}
       {{ if $img }}
-        <div class="w-full flex mb-4">
-          <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}" class="max-h-60 max-w-full object-contain rounded" />
+        <div class="w-full flex justify-center mb-4">
+          <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}" class="max-h-60 object-contain rounded" />
         </div>
       {{ end }}
 
-      <p class="text-lg text-gray-700">
-        {{ if .Params.summary }}
-          {{ .Params.summary | plainify | htmlUnescape }}
-        {{ else }}
-          {{ .Summary | plainify | htmlUnescape | truncate 140 }}
-        {{ end }}
-      </p>
+      <!-- 摘要（首句） -->
+      {{ $first := index (split (.Content | plainify) ".") 0 }}
+      <p class="text-base text-gray-700 text-center">{{ $first }}.</p>
+
     </a>
     {{ end }}
   </div>
-
-  <!-- Projects -->
-  <h2 class="mt-20 mb-6 text-2xl font-semibold">Projects</h2>
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    {{ $projects := first 3 (where site.RegularPages "Section" "project") }}
-    {{ range $projects }}
-    <a href="{{ .RelPermalink }}"
-       class="block rounded-lg border border-gray-200 shadow hover:shadow-lg transition p-4 bg-white overflow-hidden">
-      <h3 class="text-xl font-semibold mb-1 text-gray-900">{{ .Title }}</h3>
-      <span class="text-base text-primary-500 mb-2 block">{{ .Date.Format "2006-01-02" }}</span>
-
-      <p class="text-lg text-gray-700">
-        {{ if .Params.summary }}
-          {{ .Params.summary | plainify | htmlUnescape }}
-        {{ else }}
-          {{ .Summary | plainify | htmlUnescape | truncate 140 }}
-        {{ end }}
-      </p>
-    </a>
-    {{ end }}
-  </div>
-
 </section>
 {{ end }}

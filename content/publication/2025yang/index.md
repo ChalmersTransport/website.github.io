@@ -1,11 +1,15 @@
 ---
-title: "Collaborative optimization of battery electric bus scheduling and charging considering arterial signal coordination under connected environment"
+title: 'Collaborative optimization of battery electric bus scheduling and charging considering arterial signal coordination under connected environment'
+
 authors:
 - Kun
 
-date: 2025-01-01T00:00:00Z
-publishDate: 2025-01-01T00:00:00Z
-publication_types: ["article"]
+
+date: '2025-01-01T00:00:00Z'
+
+publishDate: '2025-01-01T00:00:00Z'
+
+publication_types: ["article-journal"]
 publication: "*Applied Energy*"
 publication_short: "Appl. Energy"
 abstract: Collaborative optimization of battery electric bus scheduling and charging considering arterial signal coordination under connected environment.
@@ -15,9 +19,10 @@ tags:
 - Signal Coordination
 - Connected Environment
 - Scheduling Optimization
-featured: false
+# Display this page in the Featured widget?
+featured: true
 url_pdf: "https://doi.org/10.1016/j.apenergy.2024.126166"
 doi: "10.1016/j.apenergy.2024.126166"
-projects: []
+projects: ['example']
 slides: ""
 ---
