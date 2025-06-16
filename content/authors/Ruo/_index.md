@@ -75,3 +75,51 @@ user_groups:
 
 Ruo Jia is a postdoctoral researcher in the Urban Mobility Systems research group within the Division of Geology and Geotechnics, Department of Architecture and Civil Engineering. His research interests focus on traffic flow, transportation modeling, and optimization through data-driven approaches. He is also working on urban mobility systems, with a particular focus on shared mobility, and big data analytics in transportation.
 
+## Research Vision
+
+My research focuses on building sustainable and intelligent mobility systems through electrification, shared mobility, and AI-powered modeling.
+
+
+---
+
+## Highlights
+
+{{< columns >}}
+
+### 🧠 AI-Driven Mobility Planning
+
+Kun works on combining machine learning, network modeling, and simulation to optimize urban transport systems.
+
+- Demand forecasting using federated learning  
+- Real-time fleet rebalancing for e-scooters  
+- Network accessibility modeling via OpenStreetMap
+
+### 📊 Data + Policy = Impact
+
+- Collaborating with Gothenburg city on data-driven regulations  
+- Supporting policy evaluation under EU transport goals  
+- LCA-based emission benchmarking across 100+ European cities
+
+{{< /columns >}}
+
+---
+
+## Sample Video
+
+{{< youtube x2KZ6H8p6MM >}}
+
+---
+
+## Selected Projects
+
+You can also check the /project/example for ongoing work, such as:
+
+- GHG Impacts of Shared E-Scooters  
+- Public Transport + Micro-Mobility Integration  
+- City-Level EV Adoption Modeling
+
+---
+
+## Contact
+
+I welcome collaboration with researchers and policymakers on projects related to urban mobility, electrification, and intelligent transport planning.
