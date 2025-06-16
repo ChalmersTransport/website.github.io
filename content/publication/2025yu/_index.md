@@ -1,7 +1,7 @@
 ---
 title: "Equitable tradable parking permit scheme for shared nonpublic parking management"
 authors:
-- admin
+- Kun
 
 
 date: 2025-01-01T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 title: "Collaborative optimization of battery electric bus scheduling and charging considering arterial signal coordination under connected environment"
 authors:
-- admin
+- Kun
 
 date: 2025-01-01T00:00:00Z
 publishDate: 2025-01-01T00:00:00Z

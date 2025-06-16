@@ -1,10 +1,11 @@
 ---
 # Display name
-title: Ruo Jia
+title: Ruo
 
 # Full name (for SEO)
 first_name: Ruo
 last_name: Jia
+
 
 # Username (this should match the folder name)
 authors:
@@ -76,21 +77,3 @@ user_groups:
 ---
 
 Ruo Jia is a postdoctoral researcher in the Urban Mobility Systems research group within the Division of Geology and Geotechnics, Department of Architecture and Civil Engineering. His research interests focus on traffic flow, transportation modeling, and optimization through data-driven approaches. He is also working on urban mobility systems, with a particular focus on shared mobility, and big data analytics in transportation.
-
-
----
-
-## Sample Video
-
-{{< youtube x2KZ6H8p6MM >}}
-
----
-
-## Contact
-
-I welcome collaboration with researchers and policymakers on projects related to urban mobility, electrification, and intelligent transport planning.
-
-## 📚 Selected Publications
-
-- **Jia, R.** et al. (2024). *Life-cycle GHG impacts of shared e-scooters in Europe*. _Transportation Research Part D._
-- **Jia, R.**, Gao, K. (2023). *Accessibility-based location optimization with public transport integration*. _TR Part A._

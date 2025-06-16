@@ -12,7 +12,7 @@ address:
   postcode: '94305'
   country: United States
 
-summary: An example event.
+summary: An example event. this summary should be editted for each post, event and project.
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
@@ -24,7 +24,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: '2017-01-01T00:00:00Z'
 
-authors: ['Ruo','Kun']
+authors: ['Kun']
 tags: []
 
 # Is this a featured talk? (true/false)

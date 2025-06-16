@@ -1,9 +1,6 @@
 ---
 title: "An example journal article"
-authors:
-- admin
-- Robert Ford
-- Kun
+authors: ['Kun']
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
