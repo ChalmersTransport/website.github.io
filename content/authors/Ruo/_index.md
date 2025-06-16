@@ -2,13 +2,10 @@
 title: Ruo Jia
 first_name: Ruo
 last_name: Jia
-authors:
-  - Ruo
-superuser: false
+authors: ["Ruo"]
 role: Postdoctoral Researcher
 organizations:
   - name: Chalmers University of Technology
-    url: 'https://www.chalmers.se'
 bio: Researcher in shared mobility, AI, and transport sustainability.
 interests:
   - Shared Micro-Mobility
@@ -27,8 +24,6 @@ education:
       year: 2015
 avatar:
   filename: avatar.png
-user_groups:
-  - Researchers
 ---
 
 Ruo Jia is a postdoctoral researcher in the Urban Mobility Systems group at Chalmers University of Technology.

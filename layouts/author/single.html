@@ -1,18 +1,20 @@
 {{ define "main" }}
 <main id="main">
   <article class="author-profile" style="max-width: 900px; margin: auto; padding: 2rem 1rem;">
-
     <!-- Header Section -->
-    <header style="margin-bottom: 2rem;">
-      <h1>{{ .Title }}</h1>
-      {{ with .Params.role }}<h3>{{ . }}</h3>{{ end }}
-      {{ with .Params.organizations }}
-        <p>
-          {{ range . }}
-            {{ .name }}{{ with .url }} - <a href="{{ . }}" target="_blank">Website</a>{{ end }}<br>
-          {{ end }}
-        </p>
+    <header style="margin-bottom: 2rem; display:flex; align-items:center; gap:2rem;">
+      {{ with .Params.avatar.filename }}
+        <img src="{{ . }}" alt="{{ $.Title }}" style="width:120px; height:120px; object-fit:cover; border-radius:50%; border:2px solid #eee; box-shadow: 0 2px 8px #ccc;">
       {{ end }}
+      <div>
+        <h1 style="margin-bottom:0.2em;">{{ .Title }}</h1>
+        {{ with .Params.role }}<h3 style="margin-top:0;">{{ . }}</h3>{{ end }}
+        {{ with .Params.organizations }}
+          <p style="margin:0.5em 0;">
+            {{ range . }}{{ .name }}{{ with .url }} (<a href="{{ . }}" target="_blank">website</a>){{ end }}<br>{{ end }}
+          </p>
+        {{ end }}
+      </div>
     </header>
 
     <!-- Bio / Markdown Body -->
@@ -48,13 +50,15 @@
     {{ if $projects }}
     <section style="margin-top: 3rem;">
       <h2>Projects</h2>
-      <div class="cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px,1fr)); gap: 2rem;">
         {{ range $projects }}
-          <div class="card" style="border:1px solid #ddd; border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.1); overflow:hidden;">
-            {{ with .Params.image }}<img src="{{ . }}" alt="{{ $.Title }}" style="width:100%; height:auto;">{{ end }}
+          <div style="border:1px solid #ddd; border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.08); overflow:hidden; background:#fff;">
+            {{ with .Params.image }}
+              <img src="{{ . }}" alt="{{ $.Title }}" style="width:100%; height:160px; object-fit:cover;">
+            {{ end }}
             <div style="padding: 1rem;">
-              <h3 style="margin-top: 0;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-              <p>{{ .Params.summary | plainify | truncate 120 }}</p>
+              <h3 style="margin-top:0; font-size:1.1em;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              <p style="margin:0.5em 0; color:#555;">{{ .Params.summary | plainify | truncate 120 }}</p>
             </div>
           </div>
         {{ end }}
@@ -67,12 +71,12 @@
     {{ if $publications }}
     <section style="margin-top: 3rem;">
       <h2>Selected Publications</h2>
-      <div class="cards" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px,1fr)); gap: 2rem;">
         {{ range first 5 $publications }}
-          <div class="card" style="border:1px solid #ddd; border-radius:12px; padding:1rem; box-shadow:0 2px 6px rgba(0,0,0,0.08);">
-            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-            <p><em>{{ .Date.Format "Jan 2006" }}</em></p>
-            <p>{{ .Summary | plainify | truncate 120 }}</p>
+          <div style="border:1px solid #ddd; border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.06); background:#fafbfc; padding:1rem;">
+            <h3 style="margin-top:0;"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p style="margin:0.2em 0; color:#888;"><em>{{ .Date.Format "Jan 2006" }}</em></p>
+            <p style="margin:0; color:#555;">{{ .Summary | plainify | truncate 120 }}</p>
           </div>
         {{ end }}
       </div>
