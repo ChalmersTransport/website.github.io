@@ -24,23 +24,6 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include shared mobility, micro-mobility and AI in transportation.
 
-interests:
-  - Intelligent Transport Management
-  - Shared Mobility
-  - AI and Data-Driven Solution
-
-education:
-  courses:
-    - course: PhD in Transportation Engineering
-      institution: Southeast University
-      year: 2022
-    - course: MEng in Transportation Engineering
-      institution: Southeast University
-      year: 2018
-    - course: BSc in Transportation Engineering
-      institution: Southeast University
-      year: 2015
-
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -120,3 +103,37 @@ You can also check the /project/example for ongoing work, such as:
 ## Contact
 
 I welcome collaboration with researchers and policymakers on projects related to urban mobility, electrification, and intelligent transport planning.
+
+<hr class="my-4">
+
+## 📂 Selected Projects
+
+Here are some ongoing projects I'm involved in:
+
+{{< project_card title="Master Thesis Defence 2025" image="/project/example/featured.jpg" url="/project/example/" description="Organizing thesis defence, analyzing shared mobility impact across 121 cities." >}}
+
+<!-- 如果你没有 project_card shortcode，就写 Markdown 卡片替代 -->
+
+---
+
+## 📚 Selected Publications
+
+- **Jia, R.** et al. (2024). *Life-cycle GHG impacts of shared e-scooters in Europe*. _Transportation Research Part D._
+- **Jia, R.**, Gao, K. (2023). *Accessibility-based location optimization with public transport integration*. _TR Part A._
+
+interests:
+  - Intelligent Transport Management
+  - Shared Mobility
+  - AI and Data-Driven Solution
+
+education:
+  courses:
+    - course: PhD in Transportation Engineering
+      institution: Southeast University
+      year: 2022
+    - course: MEng in Transportation Engineering
+      institution: Southeast University
+      year: 2018
+    - course: BSc in Transportation Engineering
+      institution: Southeast University
+      year: 2015
