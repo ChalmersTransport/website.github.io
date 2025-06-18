@@ -11,18 +11,17 @@ sections:
         Urban Mobility
         Research Area
       image:
-        filename: welcome.jpg
+        filename: ChatGPTImage.png
       text: |
         <br>
-        
-        The **Urban Mobility Research Area** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        Our research area focuses on advancing infrastructure, operation and management of emerging transport systems leveraging new technologies to improve sustainability, efficiency, safety and equity of future mobility systems at different scales. We focus on transport engineering to solve systematic and user-centric infrastructure planning and operation optimizations instead of vehicles or vehicular components. We target transport infrastructure and system-level solutions.
   
   - block: collection
     content:
       title: Latest News
       subtitle:
       text:
-      count: 5
+      count: 3
       filters:
         author: ''
         category: ''
@@ -60,7 +59,7 @@ sections:
     content:
       title: Latest Preprints
       text: ""
-      count: 5
+      count: 3
       filters:
         folders:
           - publication
