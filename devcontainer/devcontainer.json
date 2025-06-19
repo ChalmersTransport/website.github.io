@@ -1,0 +1,14 @@
+{
+  "name": "Hugo Extended",
+  "features": {
+
+    "ghcr.io/devcontainers/features/hugo:1": {
+      "version": "0.147.6",
+      "variant": "extended"      // 
+    }
+  },
+  "ports": [{
+    "port": 1313,
+    "onAutoForward": "openBrowser"
+  }]
+}
