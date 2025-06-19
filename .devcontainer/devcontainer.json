@@ -1,10 +1,9 @@
 {
   "name": "Hugo Extended",
   "features": {
-    // 官方 Feature，内置两种 variant
     "ghcr.io/devcontainers/features/hugo:1": {
       "version": "0.147.6",
-      "variant": "extended"      // 关键！告诉 Feature 装 extended 版
+      "variant": "hugo_extended"      
     }
   },
   "ports": [{
