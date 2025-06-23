@@ -1,14 +1,17 @@
 {
-  "name": "Hugo Extended",
-  "features": {
+  "name": "Hugo Extended 0.147.8",
 
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+
+  "features": {
     "ghcr.io/devcontainers/features/hugo:1": {
-      "version": "0.147.6",
-      "variant": "extended"      // 
+      "version": "0.147.8",   // 
+      "extended": true        // 
     }
   },
-  "ports": [{
-    "port": 1313,
-    "onAutoForward": "openBrowser"
-  }]
+
+  "forwardPorts": [1313],
+
+  // 
+  "postCreateCommand": "sudo rm -f /usr/local/hugo/bin/hugo || true"
 }
