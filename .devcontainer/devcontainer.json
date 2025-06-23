@@ -2,7 +2,7 @@
   "name": "Hugo Extended",
   "features": {
     "ghcr.io/devcontainers/features/hugo:1": {
-      "version": "0.147.6",
+      "version": "0.147.8",
       "variant": "hugo_extended"      
     }
   },
