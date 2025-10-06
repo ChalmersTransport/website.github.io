@@ -29,7 +29,7 @@ bio: My research interests include shared mobility, micro-mobility and AI in tra
 interests:
   - Intelligent Transport Management
   - Shared Mobility
-  - AI and Data-Driven Solution
+  - AI and Data-Driven Solution in Transportation
 
 education:
   courses:
