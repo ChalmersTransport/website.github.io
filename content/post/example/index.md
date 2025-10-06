@@ -8,7 +8,7 @@ image:
   focal_point: 'top'
 ---
 
-Urban Mobility Research Area congratulates all MSc students on the successful completion and defence of their Master theses. This achievement marks the culmination of months of dedicated research and academic effort.
+Digitalized and Sustainable Mobility Team congratulates all MSc students on the successful completion and defence of their Master theses. This achievement marks the culmination of months of dedicated research and academic effort.
 
 <!--more-->
 
