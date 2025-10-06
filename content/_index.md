@@ -8,8 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        Urban Mobility
-        Research Area
+        Digitalized and Sustainable Mobility Team
       image:
         filename: ChatGPTImage.png
       text: |
