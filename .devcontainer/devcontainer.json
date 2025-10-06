@@ -1,18 +1,13 @@
 {
-  "name": "Hugo Extended",
+  "name": "Hugo Extended 0.147.8",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/devcontainers/features/hugo:1": {
       "version": "0.147.8",
-      "variant": "hugo_extended"
+      "extended": true          // 关键：用 extended，而不是 variant
     }
   },
-  "ports": [
-    { "port": 1313, "onAutoForward": "openBrowser" }
-  ],
-
-  // 
-  "containerEnv": { "PATH": "/usr/local/bin:${PATH}" },
-
-  // 
-  "postCreateCommand": "set -e; cd /tmp && curl -L -o hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.147.8/hugo_extended_0.147.8_linux-amd64.tar.gz && tar -xzf hugo.tar.gz && sudo install -m 0755 hugo /usr/local/bin/hugo && hugo version"
+  "containerEnv": { "PATH": "/usr/local/bin:${PATH}" }, // 确保新 hugo 优先
+  "forwardPorts": [1313],
+  "postCreateCommand": "hugo version" // 构建后立即打印版本，便于确认
 }
