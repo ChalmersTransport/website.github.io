@@ -1,13 +1,12 @@
 {
-  "name": "Hugo Extended 0.147.8",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "name": "Hugo Extended",
   "features": {
     "ghcr.io/devcontainers/features/hugo:1": {
       "version": "0.147.8",
-      "extended": true          // 关键：用 extended，而不是 variant
+      "variant": "hugo_extended"
     }
   },
-  "containerEnv": { "PATH": "/usr/local/bin:${PATH}" }, // 确保新 hugo 优先
-  "forwardPorts": [1313],
-  "postCreateCommand": "hugo version" // 构建后立即打印版本，便于确认
+  "ports": [
+    { "port": 1313, "onAutoForward": "openBrowser" }
+  ]
 }
