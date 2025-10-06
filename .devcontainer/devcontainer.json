@@ -1,18 +1,1 @@
-{
-  "name": "Hugo Extended 0.147.8",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-    "ghcr.io/devcontainers/features/hugo:1": {
-      "version": "0.147.8",
-      "extended": true          // ← 正确的键，不是 variant
-    }
-  },
-  "forwardPorts": [1313],
-  "portsAttributes": { "1313": { "label": "hugo" } },
-
-  // 确保 /usr/local/bin（新 hugo）优先于镜像里自带的 /usr/local/hugo/bin
-  "containerEnv": { "PATH": "/usr/local/bin:${PATH}" },
-
-  // 彻底移除镜像里旧的 hugo，避免 PATH 抢跑
-  "postCreateCommand": "sudo rm -f /usr/local/hugo/bin/hugo || true"
-}
+{ "name": "Hugo Extended", "features": { "ghcr.io/devcontainers/features/hugo:1": { "version": "0.147.8", "variant": "hugo_extended" } }, "ports": [{ "port": 1313, "onAutoForward": "openBrowser" }] }
