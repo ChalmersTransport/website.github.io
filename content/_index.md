@@ -8,7 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        Digitalized and Sustainable Mobility Team
+        Sustainable and Digital Mobility Team
       image:
         filename: ChatGPTImage.png
       text: |
