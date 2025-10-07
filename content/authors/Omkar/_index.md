@@ -4,7 +4,7 @@ title: Omkar Parishwad
 
 # Full name (for SEO)
 first_name: Omkar
-last_name: Omkar
+last_name: Parishwad
 
 # Username (this should match the folder name)
 authors:
@@ -19,10 +19,10 @@ role: Doctoral Student
 # Organizations/Affiliations
 organizations:
   - name: Chalmers University of Technology
-    url: ''
+    url: 'https://www.chalmers.se/en/persons/omkarp/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Dedicated to transforming Urban Mobility Systems, my research advances electric vehicle (EV) ecosystems integrated with renewable energy. I develop ML, Agent-based models and optimization algorithms that synergize with renewable energy, enhance EV charging efficiency and support sustainable urban development. I aim to create scalable, intelligent solutions that meet urban planning and mobility's critical efficiency and sustainability requirements.
 
 
 interests:
@@ -32,7 +32,7 @@ interests:
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
+    - course: PhD in Artificial Intelligence    git push origin main
       institution: Stanford University
       year: 2012
     - course: MEng in Artificial Intelligence
