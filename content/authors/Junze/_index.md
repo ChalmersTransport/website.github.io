@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Junze
+title: Junze Sun
 
 # Full name (for SEO)
 first_name: Junze
@@ -15,7 +15,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Postdoc
+role: Doctoral Student
 
 # Organizations/Affiliations
 organizations:
@@ -23,25 +23,25 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include shared mobility, micro-mobility and AI in transportation.
+bio: My research interests include AV and EV impact in traffic, Vehicle-infrastructure interaction and AI in transportation.
 
 
 interests:
-  - Intelligent Transport Management
-  - Shared Mobility
+  - Intelligent Transport system
+  - AV and EV
   - AI and Data-Driven Solution in Transportation
 
 education:
   courses:
-    - course: PhD in Transportation Engineering
+    - course: PhD student, Civil Engineering, transportation engineering
+      institution: Chalmers University of Technology
+      year: 2025
+    - course: MSc in Civil Engineering, transportation engineering
+      institution: National University of Singapore
+      year: 2025
+    - course: BSc in Transportation and Communication
       institution: Southeast University
-      year: 2022
-    - course: MEng in Transportation Engineering
-      institution: Southeast University
-      year: 2018
-    - course: BSc in Transportation Engineering
-      institution: Southeast University
-      year: 2015
+      year: 2023
 
 
 # Social/Academic Networking
@@ -51,16 +51,16 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
+    link: 'junzes@chalmers.se'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/soonwindy95581
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: 
   - icon: github
     icon_pack: fab
-    link: https://github.com/Ruoj34
+    link: https://github.com/Windysc
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -73,8 +73,8 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Students
 ---
 
-Ruo Jia is a postdoctoral researcher in the Urban Mobility Systems research group within the Division of Geology and Geotechnics, Department of Architecture and Civil Engineering. His research interests focus on traffic flow, transportation modeling, and optimization through data-driven approaches. He is also working on urban mobility systems, with a particular focus on shared mobility, and big data analytics in transportation.
+Sun Junze is a PhD student in the Urban Mobility Systems research group within the Division of Geology and Geotechnics, Department of Architecture and Civil Engineering. His research interests focus on traffic flow, autonomous vehicles, optimization and road infrastructure and intelligence. He is also working on transportation and urban mobility systems, with a particular focus on smart vehicle interaction and big data analytics in transportation.
 
