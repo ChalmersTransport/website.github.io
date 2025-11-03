@@ -22,7 +22,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include coupled transport and energy system modeling.
 
 interests:
   - Transportation Electrification
@@ -32,15 +32,15 @@ interests:
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
+    - course: PhD in Transportation Engineering 
+      institution: Beihang University
+      year: 2024
+    - course: MEng in Transportation Engineering 
+      institution: Southwest Jiaotong University
+      year: 2016
+    - course: BSc in Transportation Engineering 
+      institution: Inner Mongolia University
       year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -49,16 +49,16 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
+    link: 'xiaohanl@chalmers.se'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: 
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=ZkK1fPwAAAAJ&hl=sv&oi=ao
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -74,4 +74,4 @@ user_groups:
   - Researchers
 ---
 
-I am an assistant professor and the research area leader in the Urban Mobility Systems research group at Chalmers University of Technology. My research works on promoting sustainable mobility with focuses on electrification, shared and connected mobility, and data-driven methods. Special interests are attached to establishing new approaches and tools for system planning, optimization and evaluation of emerging transport systems leveraging big data and machine learning. The overall goal is to facilitate the development of a safer, more sustainable and equitable transportation system. My research in above areas has been supported by JPI Urban Europe, FORMAS, Swedish Innovation Agency, Swedish Energy Agency, and Chalmers AoA Transport/Energy.
+Xiaohan Liu is a postdoc in the Urban Mobility Systems research group. His research works focus on sustainable transportation electrification and renewable energy integration. Special interests are attached to establishing new approaches and data-driven frameworks for electric vehicle charging demand estimation, charging infrastructure planning and management, and coupled transportation and energy systems. The overall goal is to facilitate green, economic-sustainable, and resilient electrified transportation systems in the uncertain future against climate change and society development.
