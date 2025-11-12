@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Dr.
+title: Arsalan Najafi
 
 # Full name (for SEO)
 first_name: Arsalan
