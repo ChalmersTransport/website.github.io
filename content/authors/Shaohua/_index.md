@@ -22,24 +22,25 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Shaohua Cui is currently a Post-Doctoral Researcher with the  Department of Architecture and Civil Engineering, Chalmers University of Technology (CTH). He received the M.S. degree from the Systems Science Institute, School of Traffic and Transportation, Beijing Jiaotong University in 2019, and the Ph.D. degree in transportation engineering from Beihang University in 2023.  His research interests include traffic flow analysis, vehicle control, adaptive control, and robust control. 
 
 
 interests:
-  - Transportation Electrification
+  - Autonomous Vehicle Control
   - Intelligent Transport Management
+  - Adaptive Traffic Signal Control 
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Traffic Information Engineering and Control
+      institution: Beihang University
+      year: 2023
+    - course: MEng in System Science
+      institution: Beijing Jiaotong University
+      year: 2019
+    - course: BSc in Physics
+      institution: Minjiang University
+      year: 2016
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
